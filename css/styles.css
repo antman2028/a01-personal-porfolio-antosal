@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/*
+Link to color palette: https://colorhunt.co/palette/fff0dcf0bb78543a14131010
+Link to box style: https://getcssscan.com/css-box-shadow-examples
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #F8FAFC;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Gabarito", serif;
+    color: #543A14;
+}
+
+h1{
+    font-size: xx-large;
+}
+
+p, a, div {
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    min-width: 100%;
+    border: 5px solid #F0BB78;
+    background-color: #FFF0DC;
+    padding:1rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.about{
+    border: 5px solid #F0BB78;
+    background-color: #FFF0DC;
+    padding:1rem;
+    border-radius: 5px;
+    min-width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.classes{
+    min-width: 100%;
+    border: 5px solid #F0BB78;
+    background-color: #FFF0DC;
+    padding:1rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.skills{
+    min-width: 100%;
+    border: 5px solid #F0BB78;
+    background-color: #FFF0DC;
+    padding:1rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.flex-main{
+    display:flex;
+    justify-content: center;
+}
+
+.container-main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 50%;
+    gap: 1rem;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.round-box{
+    border-radius: 5px;
+}
+
+.classList {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 16px; 
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.classList li {
+    background-color: #543A14; 
+    padding: 8px; 
+    text-align: center; 
+    border: 1px solid #ddd; 
+    border-radius: 4px;
+    color:#FFF0DC;
+}
+
+.icon {
+    width: 24px;
+    height: auto;
+    padding-right: 5px;
+}
+
+.listItem{
+    display: block;
+}
+
+.icon,
+.listItem p {
+    display: inline-block;
+    vertical-align:middle;
+}
